@@ -1,4 +1,4 @@
-[ ![Download](https://api.bintray.com/packages/qaware-oss/registry/base%3Aalpine-k8s-jre8/images/download.svg) ](https://bintray.com/qaware-oss/registry/base%3Aalpine-k8s-openjdk8/_latestVersion)
+[ ![Download](https://api.bintray.com/packages/qaware-oss/registry/base%3Aalpine-k8s-openjdk8/images/download.svg) ](https://bintray.com/qaware-oss/registry/base%3Aalpine-k8s-openjdk8/_latestVersion)
 
 # Alpine with Open JDK8 and DNS and Bash
 
