@@ -1,9 +1,9 @@
-FROM openjdk:8u92-jdk-alpine
+FROM openjdk:8u121-jdk-alpine
 
 MAINTAINER QAware OSS <qaware-oss@qaware.de>
 # and Jan Broer <janeczku@yahoo.com> for the Alpine image with proper DNS support
 
-ENV S6_VERSION=v1.17.1.1 GODNSMASQ_VERSION=1.0.6
+ENV S6_VERSION=v1.19.1.1 GODNSMASQ_VERSION=1.0.7
 
 RUN apk add --update bash wget \
 	&& wget https://github.com/just-containers/s6-overlay/releases/download/${S6_VERSION}/s6-overlay-amd64.tar.gz --no-check-certificate --quiet -O /tmp/s6-overlay.tar.gz \
